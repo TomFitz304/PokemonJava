@@ -1,12 +1,12 @@
 package com.tomlavalord.pokemon;
 
-public enum Elements {
+public enum Element {
     WATER("💧"),FIRE("🔥"),GRASS("🍃"),POISON("☠"),FIGHTING("✊"),
     PSYCHIC("👁"),DRAGON("🐉"),GHOST("👻"),GROUND("⛰"),ROCK("💎"),
     ICE("❄"),NORMAL("✶"),BUG("🐛"),ELECTRIC("⚡"),FLYING("☁");
 
     private final String icon;
-    Elements(String icon){
+    Element(String icon){
         this.icon = icon;
     }
     public String toString(){
