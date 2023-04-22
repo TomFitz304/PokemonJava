@@ -1,12 +1,12 @@
 package com.tomlavalord.pokemon.moves;
 
-import com.tomlavalord.pokemon.Elements;
+import com.tomlavalord.pokemon.Element;
 
 public class Move {
 
     protected int power;
 
-    protected Enum<Elements> type;
+    protected Element type;
 
     protected int accuracy;
 
@@ -22,7 +22,7 @@ public class Move {
         return power;
     }
 
-    public Enum<Elements> getType() {
+    public Element getType() {
         return type;
     }
 

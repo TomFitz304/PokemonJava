@@ -1,6 +1,6 @@
 package com.tomlavalord.pokemon.moves;
 
-import com.tomlavalord.pokemon.Elements;
+import com.tomlavalord.pokemon.Element;
 
 public class Tackle extends Move {
 
@@ -8,7 +8,7 @@ public class Tackle extends Move {
 
         power = 35;
         accuracy = 95;
-        type = Elements.NORMAL;
+        type = Element.NORMAL;
         pp = 35;
     }
 }
